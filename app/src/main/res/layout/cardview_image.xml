@@ -11,6 +11,7 @@
         android:layout_height="match_parent">
 
         <ImageView
+            android:id="@+id/imageCardView"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:src="@drawable/img_20181113_152143_original"
@@ -25,6 +26,7 @@
             android:padding="@dimen/padding_cardview">
 
             <TextView
+                android:id="@+id/usernameCardView"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="@string/carlos_vargas_cardview"
@@ -42,6 +44,7 @@
                     android:textColor="@color/textColor_White"/>
 
                 <TextView
+                    android:id="@+id/cantidadDiasCardView"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="@string/dias_cardview"
@@ -61,6 +64,7 @@
 
 
                 <TextView
+                    android:id="@+id/cantidadMeGustaCardView"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="@string/me_gusta_cardview"
