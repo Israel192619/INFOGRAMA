@@ -102,16 +102,16 @@ public class HomeFragment extends Fragment {
     public ArrayList<Image> buidImages(){
         ArrayList<Image> images = new ArrayList<>();
 
-        images.add(new Image("", "Carlos Valdivia", "2 dias", "1 me gusta"));
-        images.add(new Image("", "Luis Perez", "3 dias", "5 me gusta"));
-        images.add(new Image("", "Fernando Torricos", "6 dias", "4 me gusta"));
-        images.add(new Image("", "Maria Flores", "5 dias", "6 me gusta"));
-        images.add(new Image("", "Rolando Morales", "3 dias", "5 me gusta"));
-        images.add(new Image("", "William Jaimes", "4 dias", "4 me gusta"));
-        images.add(new Image("", "Roberto Paniagua", "2 dias", "3 me gusta"));
-        images.add(new Image("", "Lorena Herrera", "2 dias", "8 me gusta"));
-        images.add(new Image("", "Laura Caceres", "6 dias", "3 me gusta"));
-        images.add(new Image("", "Marcelo Rojas", "9 dias", "1 me gusta"));
+        images.add(new Image("https://www.laregion.bo/wp-content/uploads/2019/12/caraaa.jpg", "Carlos Valdivia", "2 dias", "1 me gusta"));
+        images.add(new Image("https://www.boliviaentusmanos.com/turismo/imagenes/casa-de-la-moneda-1.jpg", "Luis Perez", "3 dias", "5 me gusta"));
+        images.add(new Image("https://lh5.googleusercontent.com/-CINb2hHdBHc/VMfJjASBQDI/AAAAAAAAC0I/23gSET6uSaw/s640/blogger-image-979580039.jpg", "Fernando Torricos", "6 dias", "4 me gusta"));
+        images.add(new Image("https://media.tacdn.com/media/attractions-splice-spp-674x446/06/6f/46/35.jpg", "Maria Flores", "5 dias", "6 me gusta"));
+        images.add(new Image("https://www.viajesylugares.com/imagenes/copacabana505101_960_720.jpg", "Rolando Morales", "3 dias", "5 me gusta"));
+        images.add(new Image("https://www.noticiasfides.com/images/news/2022/09/c-image2022-09-15163039220-417754-A1C5.png", "William Jaimes", "4 dias", "4 me gusta"));
+        images.add(new Image("https://www.magazinemanagement.gm-bolivia.com/wp-content/uploads/2021/11/6030819859692969.jpg", "Roberto Paniagua", "2 dias", "3 me gusta"));
+        images.add(new Image("https://samaipata.com/wp-content/uploads/2017/03/1a.jpg", "Lorena Herrera", "2 dias", "8 me gusta"));
+        images.add(new Image("https://www.boliviaentusmanos.com/turismo/imagenes/cristo-de-la-concordia-1.jpg", "Laura Caceres", "6 dias", "3 me gusta"));
+        images.add(new Image("https://www.caxiatours.com/img/packages/normal_d8acf0cbd512140f782bc72f46631cbce14b8cce.jpg", "Marcelo Rojas", "9 dias", "1 me gusta"));
 
         return images;
     }
